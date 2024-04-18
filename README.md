@@ -1,6 +1,8 @@
 # Unstabilizer
 ![NPM Version](https://img.shields.io/npm/v/unstabilizer?link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Funstabilizer)
 ![Build status](https://ci.appveyor.com/api/projects/status/1kc7mwpib6fh8se4?svg=true)
+[![CodeFactor](https://www.codefactor.io/repository/github/phaticusthiccy/unstabilizer/badge)](https://www.codefactor.io/repository/github/phaticusthiccy/unstabilizer)
+![GitHub repo size](https://img.shields.io/github/repo-size/phaticusthiccy/Unstabilizer?label=Size)
 
 Pixel editing algorithm that disrupts pixel level for fine tuning ai training process.
  
