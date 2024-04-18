@@ -1,6 +1,6 @@
 {
   "name": "unstabilizer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pixel editing algorithm that disrupts pixel level for fine tuning ai training process.",
   "main": "main.js",
   "directories": {
@@ -8,8 +8,7 @@
     "src": "src"
   },
   "scripts": {
-    "test": "node example/test.js",
-    "test_buffer": "node example/test.js --buffer"
+    "test": "node example/test.js"
   },
   "repository": {
     "type": "git",

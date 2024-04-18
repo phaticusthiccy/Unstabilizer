@@ -11,24 +11,25 @@ const console = require('pino')()
  * @returns The `start()` function is returning a Promise, as it is an async function. The Promise will
  * resolve once the entire function has completed execution.
  */
+
 async function start() {
-    console.info("using image " + (String(process.argv.slice(2)[1]) == "--buffer" ? "buffer" : "path"))
+    var typeBuffer = JSON.parse(process.env.npm_config_argv).original.includes("--buffer")
+    console.info("using image " + (typeBuffer == true ? "buffer" : "path"))
     let pixels = await getPixels(
-        "src/" +
         (
-            String(process.argv.slice(2)[1]) == "--buffer" ? 
-            fs.readFileSync(
-                fs.readdirSync("src")[
+            typeBuffer == true ? 
+            fs.readFileSync("src/" + 
+                fs.readdirSync("src/").filter((names) => !names.includes("result"))[
                     Math.floor(
-                        Math.random() * fs.readdirSync("src").length
+                        Math.random() * fs.readdirSync("src/").filter((names) => !names.includes("result")).length
                     )
                 ]
             ) : 
-            fs.readdirSync("src")[
+            "src/" + (fs.readdirSync("src/").filter((names) => !names.includes("result"))[
                 Math.floor(
-                    Math.random() * fs.readdirSync("src").length
+                    Math.random() * fs.readdirSync("src/").filter((names) => !names.includes("result")).length
                 )
-            ]
+            ])
         )
     )
     let decayData = decay(pixels)
