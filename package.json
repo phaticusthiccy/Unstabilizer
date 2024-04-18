@@ -13,19 +13,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/phaticusthiccy/PEA.git"
+    "url": "git+https://github.com/phaticusthiccy/Unstabilizer.git"
   },
   "keywords": [
     "ai",
     "fine-tuning",
-    "javascript"
+    "javascript",
+    "stable-diffusion",
+    "training"
   ],
   "author": "@phaticusthiccy",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/phaticusthiccy/PEA/issues"
+    "url": "https://github.com/phaticusthiccy/Unstabilizer/issues"
   },
-  "homepage": "https://github.com/phaticusthiccy/PEA#readme",
+  "homepage": "https://github.com/phaticusthiccy/Unstabilizer#readme",
   "dependencies": {
     "canvas": "2.11.2",
     "jimp": "0.22.12",
