@@ -1,5 +1,5 @@
 {
-  "name": "pea",
+  "name": "unstabilizer",
   "version": "1.0.0",
   "description": "Pixel editing algorithm that disrupts pixel level for fine tuning ai training process.",
   "main": "main.js",
@@ -20,7 +20,7 @@
     "fine-tuning",
     "javascript"
   ],
-  "author": "phaticusthiccy",
+  "author": "@phaticusthiccy",
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/phaticusthiccy/PEA/issues"
