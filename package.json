@@ -1,6 +1,6 @@
 {
   "name": "unstabilizer",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Pixel editing algorithm that disrupts pixel level for fine tuning ai training process.",
   "main": "main.js",
   "directories": {
@@ -26,6 +26,11 @@
   "bugs": {
     "url": "https://github.com/phaticusthiccy/Unstabilizer/issues"
   },
+  "engines": {
+    "node": ">=16",
+    "npm": ">=6"
+  },
+  "cpu": ["!arm"],
   "homepage": "https://github.com/phaticusthiccy/Unstabilizer#readme",
   "dependencies": {
     "canvas": "2.11.2",
