@@ -43,7 +43,7 @@ await createImage(decayData, "path/to/image.png")
 A method of coordinating each pixel of an image to produce the colour data of that pixel.
 
 > ```js
-> // user buffer
+> // using buffer
 > getPixels(fs.readFileSync("path/to/image.png"))
 > // or image path
 > getPixels("path/to/image.png")

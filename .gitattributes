@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+file /src/*.png
+*.js	filter=indent
