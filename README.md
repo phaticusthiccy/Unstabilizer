@@ -35,9 +35,9 @@ await createImage(decayData, "path/to/image.png")
 ## Documentation
 ### Core methods
 
-* [getPixels()](#createcanvas)
-* [decay()](#createimagedata)
-* [createImage()](#loadimage)
+* [getPixels()](#getpixels)
+* [decay()](#decay)
+* [createImage()](#createimage)
 
 ### getPixels()
 A method of coordinating each pixel of an image to produce the colour data of that pixel.
