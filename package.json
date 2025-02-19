@@ -1,6 +1,6 @@
 {
   "name": "unstabilizer",
-  "version": "1.0.4",
+  "version": "1.0.9",
   "description": "Pixel editing algorithm that disrupts pixel level for fine tuning ai training process.",
   "main": "main.js",
   "directories": {
